@@ -1,0 +1,11 @@
+﻿  Source.cpp
+Source.cpp(7): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+Source.cpp(18): warning C4474: 'fprintf' : too many arguments passed for format string
+  Source.cpp(18): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  Generating code
+  1 of 8 functions (12.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Encryp_file.vcxproj -> G:\Visual_Studio_Project\Encryp_file\Release\Encryp_file.exe
+  Encryp_file.vcxproj -> G:\Visual_Studio_Project\Encryp_file\Release\Encryp_file.pdb (Full PDB)
