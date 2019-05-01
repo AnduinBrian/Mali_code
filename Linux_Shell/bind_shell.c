@@ -10,8 +10,6 @@ int main()
 	int port = 11111;
 	struct sockaddr_in my_addr;
 	sockfd = socket(AF_INET, SOCK_STREAM, 0);
-    int one = 1;
-    setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &one, sizeof(one));
 	my_addr.sin_family = AF_INET;
 	my_addr.sin_port = htons(port);
 	my_addr.sin_addr.s_addr = INADDR_ANY;
